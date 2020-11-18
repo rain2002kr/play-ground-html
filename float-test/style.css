@@ -1,0 +1,20 @@
+.body__container:after {
+  background-color: cadetblue;
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.left {
+  background-color: chartreuse;
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+.right {
+  background-color: coral;
+  width: 200px;
+  height: 200px;
+  float: right;
+}

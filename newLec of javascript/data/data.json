@@ -1,0 +1,12 @@
+{
+    "item":[
+        {"type":"cpu", "model":"Q-03CPU"},
+        {"type":"cpu", "model":"Q-06CPU"},
+        {"type":"cpu", "model":"Q-07CPU"},
+        {"type":"di", "model":"DI6"},
+        {"type":"di", "model":"DI12"},
+        {"type":"di", "model":"DI32"}
+        
+
+    ]
+}
