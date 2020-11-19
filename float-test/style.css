@@ -1,5 +1,11 @@
-.body__container:after {
+.body__container {
   background-color: cadetblue;
+  width: 980px;
+  height: 500px;
+  margin: auto;
+}
+
+.body__container::after {
   content: "";
   clear: both;
   display: block;
