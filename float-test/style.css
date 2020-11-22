@@ -1,26 +1,26 @@
 .body__container {
-  background-color: cadetblue;
-  width: 980px;
-  height: 500px;
-  margin: auto;
+    background-color: cadetblue;
+    width: 300px;
+    height: 500px;
+    margin: auto;
 }
 
 .body__container::after {
-  content: "";
-  clear: both;
-  display: block;
+    content: '';
+    clear: both;
+    display: block;
 }
 
 .left {
-  background-color: chartreuse;
-  width: 200px;
-  height: 200px;
-  float: left;
+    background-color: chartreuse;
+    width: 200px;
+    height: 200px;
+    float: left;
 }
 
 .right {
-  background-color: coral;
-  width: 200px;
-  height: 200px;
-  float: right;
+    background-color: coral;
+    width: 200px;
+    height: 200px;
+    float: right;
 }
