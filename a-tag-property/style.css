@@ -1,0 +1,17 @@
+/* a 태그 혹은 backgroud image 는 본래 이미지 사이즈를 그대로 사용하기 때문에 24px 24px 사이즈를 적용해야 한다. 
+그외는 이미지 태그를 이용해야 한다. 
+ */
+.logo {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+
+.logo a {
+    background: url('img/logo_footer.svg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-indent: -9999px; /* 명시적으로 -9999 를 사용합니다. */
+}
