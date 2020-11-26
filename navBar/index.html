@@ -1,31 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nav bar Test</title>
-    <script defer src="index.js"></script>
-    <script
-      defer
-      src="https://kit.fontawesome.com/1f26caffbd.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" type="text/css" href="index.css" />
-  </head>
-  <body>
-    <header>
-      <i class="fab fa-medium"></i>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Nav bar Test</title>
 
-      <h1 class="title">DreamCoder</h1>
-      <ul class="list">
-        <li>Welcome</li>
-        <li>FAQ's</li>
-        <li>third</li>
-      </ul>
-      <ul class="icons">
-        <li><i class="fab fa-facebook"></i></li>
-        <li><i class="fab fa-twitter"></i></li>
-      </ul>
-    </header>
-  </body>
+        <script defer src="https://kit.fontawesome.com/1f26caffbd.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" />
+        <link rel="stylesheet" type="text/css" href="index.css" />
+        <script src="main.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <nav class="inner">
+                <div class="menu1">
+                    <a href="#" class="logo"><i class="fab fa-medium"></i></a>
+                    <h1 class="title">DreamCoder</h1>
+                </div>
+                <ul class="list toggles">
+                    <li>Item1</li>
+                    <li>Item2</li>
+                    <li>Item3</li>
+                    <li>Item4</li>
+                    <li>Item5</li>
+                </ul>
+                <ul class="icons toggles">
+                    <li><i class="fab fa-facebook"></i></li>
+                    <li><i class="fab fa-twitter"></i></li>
+                </ul>
+                <!-- <div class="hamberg-btn"> -->
+                <!-- <a href="#" id="hamberg-btn"><img src="./img/toggle-btn.svg" alt="toggle-btn" /></a> -->
+                <a href="#" id="navbar__toglebutton"><i class="fas fa-bars"></i></a>
+                <!-- </div> -->
+            </nav>
+        </header>
+    </body>
 </html>
