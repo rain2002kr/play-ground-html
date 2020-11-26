@@ -1,8 +1,8 @@
 (function (window, document) {
     'use strict';
     const toggleBtn = document.querySelector('#navbar__toglebutton');
-    const list = document.querySelector('.list');
-    const icons = document.querySelector('.icons');
+    /* const menu = document.querySelector('.navbar__menu');
+    const icons = document.querySelector('.navbar__icons'); */
     const $toggles = document.querySelectorAll('.toggles');
 
     toggleBtn.addEventListener('click', () => {

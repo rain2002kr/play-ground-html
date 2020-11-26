@@ -14,21 +14,21 @@ header .inner {
     position: relative;
 }
 
-header .inner .menu1 {
+header .inner .navbar__logo {
     display: flex;
     font-size: 1.5rem;
     font-weight: 700;
     text-align: center;
 }
-header .inner .menu1 .logo {
+header .inner .navbar__logo .logo {
     color: rgba(0, 0, 0, 0.6);
     margin-right: 12px;
 }
 
-header .inner .list {
+header .inner .navbar__menu {
     display: flex;
 }
-header .inner .list li {
+header .inner .navbar__menu li {
     font-size: 16px;
     font-weight: 300;
     padding: 24px;
@@ -37,12 +37,12 @@ header .inner .list li {
     margin-right: 10px;
 }
 
-header .inner .icons {
+header .inner .navbar__icons {
     display: flex;
     padding: 24px;
 }
 
-header .inner .icons i {
+header .inner .navbar__icons i {
     margin-right: 5px;
     font-size: 20px;
 }
@@ -59,23 +59,23 @@ header .inner .icons i {
         flex-direction: column;
         /* align-items: flex-start; */
     }
-    header .inner .menu1 {
+    header .inner .navbar__logo {
         /* margin-bottom: 16px; */
         align-self: flex-start;
     }
-    header .inner .list {
+    header .inner .navbar__menu {
         display: none;
         flex-direction: column;
         width: 100%;
     }
-    header .inner .list li:first-child {
+    header .inner .navbar__menu li:first-child {
         margin-top: 20px;
     }
-    header .inner .list li {
+    header .inner .navbar__menu li {
         margin-top: 4px;
     }
 
-    header .inner .icons {
+    header .inner .navbar__icons {
         display: none;
     }
 
@@ -86,8 +86,8 @@ header .inner .icons i {
         right: 12px;
     }
 
-    header .inner .list.active,
-    header .inner .icons.active {
+    header .inner .navbar__menu.active,
+    header .inner .navbar__icons.active {
         display: flex;
     }
 }
