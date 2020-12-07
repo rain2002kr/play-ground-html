@@ -1,0 +1,31 @@
+/* b{
+    font-weight: normal;
+} */
+
+em {
+    font-style: normal; /* 이탤릭체 본래로 돌리기 */
+    font-weight: bold;
+    color: brown;
+}
+
+code{
+    color: orange;
+    background-color: lightgray;
+    padding: 1px ;
+    border:1px solid gray;
+}
+
+
+kbd{
+    padding: 0 3px;
+    border-radius: 3px;
+    border-top:2px solid rgb(240,240,240);
+    border-bottom:2px solid rgb(205,205,205);
+    border-left:2px solid rgb(240,240,240);
+    border-right:2px solid rgb(225,225,225);
+
+}
+p{
+    line-height: 50px; /* 50px 가운데에 잡힌다.*/
+}
+
