@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="/api/login" method="GET" id="login-form">
+        <input type="email" name="email" autofocus>
+        <input type="password" name="password">
+
+        <button type="submit">로그인</button>
+        <input type="submit" value="로그인s">
+    </form>
+
+    <input type="text" form="login-form" name="test" maxlength="6">
+    <input type="number" placeholder="숫자를 입력하세요." min="2" max="4">
+    <input type="number" placeholder="숫자를 입력하세요." step="4">
+    <input type="checkbox" checked>
+    <input type="file">
+    <input type="file" multiple>
+
+    <!-- 이미지를 submit 으로 이용 가능 -->
+    <br>
+    <input type="image" src="./img/toggle-btn.svg">
+    <br>
+
+    <form action="">
+        <input type="radio" name="radio1">
+        <input type="radio" name="radio1" checked>
+        <input type="radio" name="radio1">
+        <input type="reset">
+    </form>
+
+    
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
