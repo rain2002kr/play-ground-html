@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>select datalist optgroup option</title>
+</head>
+
+<body>
+    <select name="fruits" size="1" multiple>
+        <optgroup label="과일1">
+            <option value="Apple" label="Apple"></option>
+            <option selected>Banna</option>
+        </optgroup>
+        <optgroup label="과일2">
+            <option value="">Orange</option>
+            <option value="">Mango</option>
+            <option value="">Fineapple</option>
+        </optgroup>
+
+    </select>
+
+    <input type="text" list="fruits">
+
+    <datalist id="fruits">
+        <option>Apple</option>
+        <option>Orange</option>
+        <option>Banana</option>
+        <option>Mango</option>
+        <option>Fineapple</option>
+    </datalist>
+</body>
+
+</html>

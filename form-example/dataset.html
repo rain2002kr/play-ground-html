@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data set</title>
+</head>
+
+<body>
+    <div id="me" data-my-name="khlee" data-my-age="39">HEROPY</div>
+    <script>
+        const me = document.querySelector('#me');
+        console.log(me);
+        console.log(me.dataset);
+        console.log(me.dataset.myName);
+        console.log(me.dataset.myAge);
+    </script>
+
+    <div draggable="true">The element to drag.</div>
+
+    <form id="hidden-form" action="/form-action" hidden>
+        <!-- 숨겨진 양식들.. -->
+        <input type="text" name="id" value="Heropy">
+    </form>
+    <button form="hidden-form" type="submit">전송</button>
+</body>
+
+</html>
